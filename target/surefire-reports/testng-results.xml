@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="15784" started-at="2020-03-01T22:05:12 IST" finished-at="2020-03-01T22:05:28 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="15784" started-at="2020-03-01T22:05:12 IST" finished-at="2020-03-01T22:05:28 IST">
+      <class name="ibmgroup.Automation_UI.HomePageTest">
+        <test-method status="PASS" signature="printHello()[pri:0, instance:ibmgroup.Automation_UI.HomePageTest@1753acfe]" name="printHello" duration-ms="15729" started-at="2020-03-01T22:05:12 IST" finished-at="2020-03-01T22:05:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printHello -->
+      </class> <!-- ibmgroup.Automation_UI.HomePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
