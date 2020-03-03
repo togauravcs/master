@@ -26,4 +26,9 @@ public class HomePageTest {
 		Thread.sleep(2000);
 		driver.close();
 	}
+	@Test
+	public void testMethod2()
+	{
+		System.out.println("Method2");
+	}
 }

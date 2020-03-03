@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="15784" started-at="2020-03-01T22:05:12 IST" finished-at="2020-03-01T22:05:28 IST">
+  <suite name="Surefire suite" duration-ms="31401" started-at="2020-03-03T12:44:33 IST" finished-at="2020-03-03T12:45:04 IST">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="15784" started-at="2020-03-01T22:05:12 IST" finished-at="2020-03-01T22:05:28 IST">
+    <test name="Surefire test" duration-ms="31401" started-at="2020-03-03T12:44:33 IST" finished-at="2020-03-03T12:45:04 IST">
       <class name="ibmgroup.Automation_UI.HomePageTest">
-        <test-method status="PASS" signature="printHello()[pri:0, instance:ibmgroup.Automation_UI.HomePageTest@1753acfe]" name="printHello" duration-ms="15729" started-at="2020-03-01T22:05:12 IST" finished-at="2020-03-01T22:05:28 IST">
+        <test-method status="PASS" signature="openGmail()[pri:0, instance:ibmgroup.Automation_UI.HomePageTest@482f8f11]" name="openGmail" duration-ms="16316" started-at="2020-03-03T12:44:33 IST" finished-at="2020-03-03T12:44:49 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printHello -->
+        </test-method> <!-- openGmail -->
+        <test-method status="PASS" signature="testMethod2()[pri:0, instance:ibmgroup.Automation_UI.HomePageTest@482f8f11]" name="testMethod2" duration-ms="0" started-at="2020-03-03T12:44:49 IST" finished-at="2020-03-03T12:44:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
       </class> <!-- ibmgroup.Automation_UI.HomePageTest -->
+      <class name="ibmgroup.Automation_UI.LocationPageTest">
+        <test-method status="PASS" signature="openFacebook()[pri:0, instance:ibmgroup.Automation_UI.LocationPageTest@1593948d]" name="openFacebook" duration-ms="15031" started-at="2020-03-03T12:44:49 IST" finished-at="2020-03-03T12:45:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebook -->
+      </class> <!-- ibmgroup.Automation_UI.LocationPageTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
