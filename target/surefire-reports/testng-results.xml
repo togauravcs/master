@@ -1,26 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="31401" started-at="2020-03-03T12:44:33 IST" finished-at="2020-03-03T12:45:04 IST">
+  <suite name="Surefire suite" duration-ms="36758" started-at="2020-03-03T13:47:08 IST" finished-at="2020-03-03T13:47:45 IST">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="31401" started-at="2020-03-03T12:44:33 IST" finished-at="2020-03-03T12:45:04 IST">
+    <test name="Surefire test" duration-ms="36758" started-at="2020-03-03T13:47:08 IST" finished-at="2020-03-03T13:47:45 IST">
       <class name="ibmgroup.Automation_UI.HomePageTest">
-        <test-method status="PASS" signature="openGmail()[pri:0, instance:ibmgroup.Automation_UI.HomePageTest@482f8f11]" name="openGmail" duration-ms="16316" started-at="2020-03-03T12:44:33 IST" finished-at="2020-03-03T12:44:49 IST">
+        <test-method status="PASS" signature="openGmail()[pri:0, instance:ibmgroup.Automation_UI.HomePageTest@482f8f11]" name="openGmail" duration-ms="19819" started-at="2020-03-03T13:47:08 IST" finished-at="2020-03-03T13:47:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openGmail -->
-        <test-method status="PASS" signature="testMethod2()[pri:0, instance:ibmgroup.Automation_UI.HomePageTest@482f8f11]" name="testMethod2" duration-ms="0" started-at="2020-03-03T12:44:49 IST" finished-at="2020-03-03T12:44:49 IST">
+        <test-method status="PASS" signature="testMethod3()[pri:0, instance:ibmgroup.Automation_UI.HomePageTest@482f8f11]" name="testMethod3" duration-ms="0" started-at="2020-03-03T13:47:28 IST" finished-at="2020-03-03T13:47:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method status="PASS" signature="testMethod2()[pri:0, instance:ibmgroup.Automation_UI.HomePageTest@482f8f11]" name="testMethod2" duration-ms="0" started-at="2020-03-03T13:47:28 IST" finished-at="2020-03-03T13:47:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod2 -->
       </class> <!-- ibmgroup.Automation_UI.HomePageTest -->
       <class name="ibmgroup.Automation_UI.LocationPageTest">
-        <test-method status="PASS" signature="openFacebook()[pri:0, instance:ibmgroup.Automation_UI.LocationPageTest@1593948d]" name="openFacebook" duration-ms="15031" started-at="2020-03-03T12:44:49 IST" finished-at="2020-03-03T12:45:04 IST">
+        <test-method status="PASS" signature="openFacebook()[pri:0, instance:ibmgroup.Automation_UI.LocationPageTest@1593948d]" name="openFacebook" duration-ms="16809" started-at="2020-03-03T13:47:28 IST" finished-at="2020-03-03T13:47:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openFacebook -->
+        <test-method status="PASS" signature="testMethod_21()[pri:0, instance:ibmgroup.Automation_UI.LocationPageTest@1593948d]" name="testMethod_21" duration-ms="0" started-at="2020-03-03T13:47:45 IST" finished-at="2020-03-03T13:47:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod_21 -->
+        <test-method status="PASS" signature="testMethod_31()[pri:0, instance:ibmgroup.Automation_UI.LocationPageTest@1593948d]" name="testMethod_31" duration-ms="0" started-at="2020-03-03T13:47:45 IST" finished-at="2020-03-03T13:47:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod_31 -->
       </class> <!-- ibmgroup.Automation_UI.LocationPageTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

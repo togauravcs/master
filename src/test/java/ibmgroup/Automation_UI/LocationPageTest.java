@@ -25,12 +25,12 @@ public class LocationPageTest {
 		driver.close();
 	}
 	@Test
-	public void testMethod21()
+	public void testMethod_21()
 	{
 		System.out.println("Method21");
 	}
 	@Test
-	public void testMethod31()
+	public void testMethod_31()
 	{
 		System.out.println("Method31");
 	}
