@@ -24,6 +24,15 @@ public class LocationPageTest {
 		Thread.sleep(2000);
 		driver.close();
 	}
-	
+	@Test
+	public void testMethod21()
+	{
+		System.out.println("Method21");
+	}
+	@Test
+	public void testMethod31()
+	{
+		System.out.println("Method31");
+	}
 	
 }

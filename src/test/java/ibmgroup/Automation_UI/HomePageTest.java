@@ -31,4 +31,9 @@ public class HomePageTest {
 	{
 		System.out.println("Method2");
 	}
+	@Test
+	public void testMethod3()
+	{
+		System.out.println("Method3");
+	}
 }
