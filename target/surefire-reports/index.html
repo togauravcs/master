@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">10 methods,   10 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,16 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ibmgroup.Automation_UI.LocationPageTest" hash-for-method="openFacebook">openFacebook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ibmgroup.Automation_UI.HomePageTest" hash-for-method="openGmail">openGmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ibmgroup.Automation_UI.HomePageTest" hash-for-method="testMethod2">testMethod2</a> <!-- method navigator-link -->
@@ -160,6 +170,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="openFacebook">
+                  </a> <!-- openFacebook -->
+                  <span class="method-name">openFacebook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testMethod_21">
                   </a> <!-- testMethod_21 -->
                   <span class="method-name">testMethod_21</span>
@@ -194,6 +211,13 @@
               <span class="class-name">ibmgroup.Automation_UI.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openGmail">
+                  </a> <!-- openGmail -->
+                  <span class="method-name">openGmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testMethod2">
@@ -276,44 +300,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testMethod2')
+data.setCell(0, 1, 'openGmail')
 data.setCell(0, 2, 'ibmgroup.Automation_UI.HomePageTest')
-data.setCell(0, 3, 40);
+data.setCell(0, 3, 33289);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testMethod_41')
+data.setCell(1, 1, 'openFacebook')
 data.setCell(1, 2, 'ibmgroup.Automation_UI.LocationPageTest')
-data.setCell(1, 3, 10);
+data.setCell(1, 3, 20990);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testMethod_21')
+data.setCell(2, 1, 'testMethod_31')
 data.setCell(2, 2, 'ibmgroup.Automation_UI.LocationPageTest')
-data.setCell(2, 3, 2);
+data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testMethod3')
+data.setCell(3, 1, 'testMethod2')
 data.setCell(3, 2, 'ibmgroup.Automation_UI.HomePageTest')
 data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testMethod_51')
-data.setCell(4, 2, 'ibmgroup.Automation_UI.LocationPageTest')
+data.setCell(4, 1, 'testMethod3')
+data.setCell(4, 2, 'ibmgroup.Automation_UI.HomePageTest')
 data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testMethod5')
-data.setCell(5, 2, 'ibmgroup.Automation_UI.HomePageTest')
+data.setCell(5, 1, 'testMethod_21')
+data.setCell(5, 2, 'ibmgroup.Automation_UI.LocationPageTest')
 data.setCell(5, 3, 0);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testMethod_31')
+data.setCell(6, 1, 'testMethod_41')
 data.setCell(6, 2, 'ibmgroup.Automation_UI.LocationPageTest')
 data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testMethod4')
+data.setCell(7, 1, 'testMethod5')
 data.setCell(7, 2, 'ibmgroup.Automation_UI.HomePageTest')
 data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testMethod4')
+data.setCell(8, 2, 'ibmgroup.Automation_UI.HomePageTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testMethod_51')
+data.setCell(9, 2, 'ibmgroup.Automation_UI.LocationPageTest')
+data.setCell(9, 3, 0);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 52 ms</span>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -341,39 +373,47 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">ibmgroup.Automation_UI.HomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testMethod2</span>
+                <span class="method-name">openGmail</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">testMethod2</span>
+                <span class="method-start">33305 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">testMethod3</span>
-                <span class="method-start">51 ms</span>
+                <span class="method-start">33305 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testMethod4</span>
-                <span class="method-start">58 ms</span>
+                <span class="method-start">33305 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testMethod5</span>
-                <span class="method-start">60 ms</span>
+                <span class="method-start">33305 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ibmgroup.Automation_UI.LocationPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <span class="method-name">openFacebook</span>
+                <span class="method-start">33326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">testMethod_21</span>
-                <span class="method-start">79 ms</span>
+                <span class="method-start">54318 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testMethod_31</span>
-                <span class="method-start">81 ms</span>
+                <span class="method-start">54321 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testMethod_41</span>
-                <span class="method-start">81 ms</span>
+                <span class="method-start">54323 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testMethod_51</span>
-                <span class="method-start">101 ms</span>
+                <span class="method-start">54323 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

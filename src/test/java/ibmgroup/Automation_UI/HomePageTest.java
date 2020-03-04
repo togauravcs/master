@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class HomePageTest {
 	
 
-	//@Test
+	@Test
 	public void openGmail() throws InterruptedException
 	{
 		System.out.println("Test Case 1");

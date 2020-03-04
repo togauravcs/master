@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class LocationPageTest {
-	//@Test
+	@Test
 	public void openFacebook() throws InterruptedException
 	{
 		System.out.println("Test Case 2");
