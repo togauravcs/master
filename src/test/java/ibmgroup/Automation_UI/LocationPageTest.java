@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class LocationPageTest {
-	@Test
+	//@Test
 	public void openFacebook() throws InterruptedException
 	{
 		System.out.println("Test Case 2");
@@ -34,5 +34,14 @@ public class LocationPageTest {
 	{
 		System.out.println("Method31");
 	}
-	
+	@Test
+	public void testMethod_41()
+	{
+		System.out.println("Method41");
+	}
+	@Test
+	public void testMethod_51()
+	{
+		System.out.println("Method51");
+	}
 }
